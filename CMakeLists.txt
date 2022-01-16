@@ -60,8 +60,3 @@ endif()
 add_executable(injector
     inject.cpp
     )
-
-add_library(target SHARED
-    target.cpp
-    target.h
-    )

@@ -3,6 +3,11 @@
 
 #include <QMainWindow>
 
+#include <windows.h>
+#include <stdio.h>
+#include <conio.h>
+#include <tchar.h>
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -23,6 +28,9 @@ private slots:
     void on_attachDks_clicked();
 
 private:
+    HANDLE hMapFile;
+    LPCTSTR pBuf;
+
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

@@ -33,7 +33,7 @@ DWORD GetProcId(const char* procName)
 int main()
 {
     const char* dllPath = "C:\\Users\\hel\\Documents\\Qt\\build-QtItemGib-Desktop_x64_Clang-Release\\target.dll";
-    const char* procName = "DarkSoulsIII.exe"; // Tutorial-x86_64.exe
+    const char* procName = "DarkSoulsIII.exe"; // Tutorial-x86_64.exe // DarkSoulsIII.exe
     DWORD procId = 0;
 
     while (!procId)
