@@ -1,5 +1,6 @@
 // COMPILE THIS SEPARATELY, NOT WITH CMAKE
 // clang++ -O3 -shared test.c -o target.dll
+// run at least steam with admin rights
 
 #include <conio.h>
 #include <stdio.h>
